@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button type="button" onclick="myFunction()">Pause</button>
+    <div class="gradient"></div>
+    <div class="demo">
+        <img class="logo" src="img/oneplus wit.svg">
+        <h1 id="beyond">Go beyond speed</h1>
+        <h1 id="colors">2 Different colors</h1>       
+        <h1 id="launch">OnePlus 7 Series Launch Event</h1>
+        <h1 id="may">MAY 14</h1>
+        <img class="blauw" src="img/Blauw.png">
+        <img class="rood" src="img/Rood.png">
+        <img class="deel-1" src="img/deell-1.svg">
+        <img class="deel-2" src="img/deell-2.svg">
+        <img class="deel-3" src="img/deell-3.svg">
+    </div>
+
+    <div class="panel" id="panel3">
+            <div id="info">
+                <div id="orderNow">
+                    <a href="https://www.oneplus.com/nl/7?from=head">Order now!</a>
+                </div>
+            </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+<script>
+var playing = false;
+function myFunction() {
+    if (playing) {
+        tl.pause();
+        playing = false;
+    } else {
+        tl.play();
+        playing = true;
+    }
+}
+
+</script>
+</html>
