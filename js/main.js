@@ -1,68 +1,76 @@
-//functions
+//functions this is only used once to keep it simple
 var tl = new TimelineMax({});
 
-
-//animation
+//This function is start and pause the animation
 tl.pause();
 
-//logo oneplus
+//The first animation about the logo
 tl.to(".logo", 1.5, {scale: 1.75})
 .to(".logo", 0.5, {css:{display: "none"}})
 
-//blauw
-.from(".blauw", 0, {css:{display: "none"}})
-.to(".blauw", 1, {ease: Power2.easeOut, x: 435})
 
-// rood=visible
-.from(".rood", 0, {css:{display: "none"}})
-.to(".blauw", 0.2, {css:{opacity: 0}})
-.to(".blauw", 0, {css:{display: "none"}})
+//The image of the red OnePlus 7 going from left to the middle
+.from(".blue", 0, {css:{display: "none"}})
+.to(".blue", 1, {ease: Power2.easeOut, x: 435})
 
-//rood
-.to(".rood", 1, {ease: Power2.easeOut, x: 350})
-.to(".rood", 0, {css:{display: "none"}})
+//The blue image is fading out and the red image is becoming visible
+.from(".red", 0, {css:{display: "none"}})
+.to(".blue", 0.2, {css:{opacity: 0}})
+.to(".blue", 0, {css:{display: "none"}})
+
+//The image of the red OnePlus 7 going from the middle to the right
+.to(".red", 1, {ease: Power2.easeOut, x: 350})
+.to(".red", 0, {css:{display: "none"}})
 
 
-//Tekst 2 different colors
+//Text: "2 different colors" with fading effect
 .from("#colors", 0, {css:{display: "none"}})
 .from("#colors", 1.5, {autoAlpha:0,})
 .from("#colors", 1.5, {scale:0.5, autoAlpha:0.5, ease:Back.easeOut})
 .to("#colors", 0, {css:{display: "none"}})
 
 
-//7 deel 1
-.from(".deel-1", 0, {css:{display: "none"}})
-.to(".deel-1", 0.75, {ease: Power2.easeOut, x: 430})
+//Part 1 of the "7" image
+.from(".Part-1", 0, {css:{display: "none"}})
+.to(".Part-1", 0.75, {ease: Power2.easeOut, x: 430})
 
-//7 deel 2
-.from(".deel-2", 0, {css:{display: "none"}})
-.to(".deel-2", 0.75, {ease: Power2.easeOut, x: 430})
-.to(".deel-2", 0, {css:{display: "none"}})
-.to(".deel-1", 0, {css:{display: "none"}})
+//Part 2 of the "7" image
+.from(".Part-2", 0, {css:{display: "none"}})
+.to(".Part-2", 0.75, {ease: Power2.easeOut, x: 430})
+.to(".Part-2", 0, {css:{display: "none"}})
+.to(".Part-1", 0, {css:{display: "none"}})
 
-//7 deel 3
-.from(".deel-3", 0, {css:{display: "none"}})
-.to(".deel-3", 1, {scale: 1.25})
-.to(".deel-3", 0, {css:{display: "none"}})
+//The final "7" image 
+.from(".Part-3", 0, {css:{display: "none"}})
+.to(".Part-3", 1, {scale: 1.25})
+.to(".Part-3", 0, {css:{display: "none"}})
 
 
-//Go beyond speed
+//Text: "Go beyond speed", with scaling
 .from("#beyond", 0, {css:{display: "none"}})
 .to("#beyond", 1, {scale: 1.25})
 .to("#beyond", 0.5, {scale: 1.75})
 .to("#beyond", 0.5, {css:{display: "none"}})
 
-//launch
+//Endslide part 1
+.from(".endslide-1", 0.5, {css:{display: "none"}})
+.from(".endslide-1", 1.5, {scale:0.5, autoAlpha:0, ease:Back.easeOut})
+
+.from(".never-settle", 0.5, {css:{display: "none"}})
+.from(".never-settle", 1, {scale:0.5, autoAlpha:0, ease:Back.easeOut})
+
+
+//Text: "OnePlus 7 Series Launch Event"
 .from("#launch", 0, {css:{display: "none"}})
 .to("#launch", 1, {scale: 1.25})
 
-//may 14
+//Text: "MAY 14"
 .from("#may", 0, {css:{display: "none"}})
-.to("#may", 1, {scale: 1, autoAlpha: 2, ease: Power2.easeIn})
+//.to("#may", 1, {scale: 1, autoAlpha: 2, ease: Power2.easeIn})
 
-//order now
+//Button with "order now!"
 .from("#panel3", 0, {css:{display: "none"}})
-.from("#info", 0.1, {top:250}, "final")
-.from("#orderNow", 0.5, {scale:0, autoAlpha:0, ease:Back.easeOut})
-.to("#may", 0, {css:{display: "visible"}})
+.from("#info", 0.5, {top:250}, "final")
+.from("#orderNow", 1, {scale:0, autoAlpha:0, ease:Back.easeOut})
+.to("#may", 0, {css:{display: "hidden"}})
 .to("#launch", 0, {css:{display: "visible"}})
