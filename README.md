@@ -1,6 +1,7 @@
-<p align="center"><img align="center" src="https://github.com/MartijnDBC/OnePlusProject/blob/master/img/oneplus%20klein.jpg"><p>
-<h1 align= "center">OnePlus Project</h1>
-This project is made for a school project about the OnePlus 7.
+<p align="center"><img align="center" src="https://github.com/MartijnDBC/OnePlusProject/blob/master/img/oneplus%20klein.jpg"></p>
+<h3 align= "center">OnePlus Project</h3>
+<p align= "center">This is a project where I learn to use JavaScript and GSAP!<br>
+  <a href="https://github.com/MartijnDBC/OnePlusProject/"><strong>See what I created!</strong></a></p>
 
 # Table of contents
 * <a href="https://github.com/MartijnDBC/OnePlusProject/blob/master/README.md#introduction">Introduction</a>
