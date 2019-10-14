@@ -3,9 +3,9 @@ This project is made for a school project about the OnePlus 7.
 
 # Table of contents
 * <a href="https://github.com/MartijnDBC/OnePlusProject/blob/master/README.md#introduction">Introduction</a>
-* Getting started
-* Usage
-* Contact
+* <a href="https://github.com/MartijnDBC/OnePlusProject/blob/master/README.md#getting-started">Getting started</a>
+* <a href="https://github.com/MartijnDBC/OnePlusProject/blob/master/README.md#usage">Usage</a>
+* <a href="https://github.com/MartijnDBC/OnePlusProject/blob/master/README.md#contact">Contact</a>
 
 # Introduction 
 I am a DBC student at Fontys Tilburg and for a class I had to make a project and create a GitHub. This is my first time using GitHub and even using JavaScript and GSAP used in this project. The assignment was really open and we had to come up with our own project. Because I was searching for a new phone that day I decided to make a project around the OnePlus 7. I made a simple advertisement using GSAP and JavaScript. I had no experience starting this project and this is wat I created. That's why I am always open for feedback!
