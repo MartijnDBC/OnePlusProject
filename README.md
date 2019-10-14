@@ -1,3 +1,4 @@
+
 # OnePlusProject
 This project is made for a school project about the OnePlus 7.
 
