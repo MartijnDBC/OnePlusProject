@@ -10,7 +10,7 @@ body {
   padding-top: calc(250px - 125px);
 }
 
-.deel-1 {
+.Part-1 {
   width: 300px;
   height: 250px;
   padding-top: calc(250px - 125px);
@@ -19,7 +19,7 @@ body {
   left: -300px;
 }
 
-.deel-2 {
+.Part-2 {
   width: 300px;
   height: 250px;
   padding-top: calc(250px - 125px);
@@ -28,7 +28,7 @@ body {
   left: -300px;
 }
 
-.deel-3 {
+.Part-3 {
   width: 300px;
   height: 250px;
   padding-top: calc(250px - 125px);
@@ -61,39 +61,34 @@ body {
 
 #launch {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: white;
-  padding-top: calc(300px - 90px);
+  font-weight: 700;
+  color: black;
+  padding-top: calc(300px - 200px);
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
   margin-bottom: auto;
-  margin-left: 94.5px;
+  margin-left: 210px;
   margin-top: auto;
   position: absolute;
+  width: 200px;
+  z-index:25;
 }
 
 #may {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   color: white;
-  padding-top: 285px;
+  padding-top: 300px;
   text-align: center;
   font-size: 25px;
   margin-bottom: auto;
   margin-top: auto;
-  position: relative;
-
+  position: absolute;
+  margin-left: 267px;
+  z-index: 25;
 }
 
-.gif {
-  width: 300px;
-  height: 250px;
-  padding-top: calc(250px - 125px);
-  display: block;
-  padding-left: 130px;
-}
-
-.blauw {
+.blue {
   width: 285px;
   height: 285px;
   padding-top: calc(250px - 125px);
@@ -104,7 +99,7 @@ body {
   z-index: 15;
 }
 
-.rood {
+.red {
   width: 285px;
   height: 285px;
   padding-top: calc(250px - 125px);
@@ -112,13 +107,33 @@ body {
   margin-left: 10px;
   position: absolute;
   z-index: 10;
+  overflow-x: hidden;
 }
+
+.endslide-1 {
+  width: 600px;
+  height: 600px;
+  padding-left: 0px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 10;
+}
+
+.never-settle {
+  width: auto;
+  height: auto;
+  padding-left: 0px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 15;
+}
+
 
 #panel3 #orderNow {
   font-family: 'Roboto', sans-serif;
   position:absolute;
-  top:380px;
-  left:231px;
+  top:420px;
+  left:250px;
   background:#ffc600;
   color:#000;
   font-size:25px;
@@ -126,6 +141,7 @@ body {
   padding:10px;
   border-radius:10px;
   border: 4px solid transparent;
+  z-index: 30;
 }
 
 #panel3 #orderNow:hover {
@@ -133,6 +149,8 @@ body {
   background:#ffaa00;
   border: 4px solid #fff;
   cursor: pointer;
+  position: absolute;
+  z-index: 30;
 }
 
 .demo {
