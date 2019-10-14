@@ -15,6 +15,12 @@ I am a DBC student at Fontys Tilburg and for a class I had to make a project and
 # Getting started
 To see my working project you first have to download all the files on my github page. Be sure that all the folders are saved correctly to prevent any errors. Because of some issues you have to open the Index.html file with Google Chrome. This will give you the best results.
 
+<h3>Build with </h3>
+* Javascript <br>
+* GSAP
+
+  
+
 # Usage
 I get that you would want to change some things in my project or see how I did it, that's why I tried to put comments on top of every couple of lines in the coding. The codes overall are pretty standard and self explanitory. 
 
