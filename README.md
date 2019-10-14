@@ -2,7 +2,7 @@
 This project is made for a school project about the OnePlus 7.
 
 # Table of contents
-* Introduction
+* <a href="https://github.com/MartijnDBC/OnePlusProject/blob/master/README.md#introduction">Introduction</a>
 * Getting started
 * Usage
 * Contact
