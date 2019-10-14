@@ -1,5 +1,5 @@
-
-# OnePlusProject
+<p align="center"><img align="center" src="https://github.com/MartijnDBC/OnePlusProject/blob/master/img/oneplus%20klein.jpg"><p> <br>
+<h1 align= "center">OnePlus Project</h1>
 This project is made for a school project about the OnePlus 7.
 
 # Table of contents
