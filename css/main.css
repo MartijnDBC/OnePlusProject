@@ -23,7 +23,7 @@ body {
   width: 300px;
   height: 250px;
   padding-top: calc(250px - 125px);
-  position: relative;
+  position: absolute;
   display: block;
   left: -300px;
 }
@@ -32,9 +32,9 @@ body {
   width: 300px;
   height: 250px;
   padding-top: calc(250px - 125px);
-  position: relative;
+  position: absolute;
   display: block;
-  padding-left: 130px;
+  padding-left: 120px;
 }
 
 #beyond {
@@ -59,35 +59,6 @@ body {
   margin-top: auto;
 }
 
-#launch {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  color: black;
-  padding-top: calc(300px - 200px);
-  text-align: center;
-  font-size: 22px;
-  margin-bottom: auto;
-  margin-left: 210px;
-  margin-top: auto;
-  position: absolute;
-  width: 200px;
-  z-index:25;
-}
-
-#may {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  color: white;
-  padding-top: 300px;
-  text-align: center;
-  font-size: 25px;
-  margin-bottom: auto;
-  margin-top: auto;
-  position: absolute;
-  margin-left: 267px;
-  z-index: 25;
-}
-
 .blue {
   width: 285px;
   height: 285px;
@@ -103,7 +74,7 @@ body {
   width: 285px;
   height: 285px;
   padding-top: calc(250px - 125px);
-  padding-left: 150px;
+  padding-left: 140px;
   margin-left: 10px;
   position: absolute;
   z-index: 10;
@@ -127,6 +98,18 @@ body {
   position: absolute;
   z-index: 15;
 }
+
+.popup {
+  padding-top: calc(300px - 210px);
+  margin-bottom: auto;
+  margin-left: 202px;
+  margin-top: auto;
+  position: absolute;
+  width: 225px;
+  z-index:25;
+  height: 80px;
+}
+
 
 
 #panel3 #orderNow {

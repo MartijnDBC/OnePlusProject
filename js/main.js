@@ -15,7 +15,7 @@ tl.to(".logo", 1.5, {scale: 1.75})
 
 //The blue image is fading out and the red image is becoming visible
 .from(".red", 0, {css:{display: "none"}})
-.to(".blue", 0.2, {css:{opacity: 0}})
+.to(".blue", 0.5, {css:{opacity: 0}})
 .to(".blue", 0, {css:{display: "none"}})
 
 //The image of the red OnePlus 7 going from the middle to the right
@@ -59,18 +59,12 @@ tl.to(".logo", 1.5, {scale: 1.75})
 .from(".never-settle", 0.5, {css:{display: "none"}})
 .from(".never-settle", 1, {scale:0.5, autoAlpha:0, ease:Back.easeOut})
 
-
-//Text: "OnePlus 7 Series Launch Event"
-.from("#launch", 0, {css:{display: "none"}})
-.to("#launch", 1, {scale: 1.25})
-
-//Text: "MAY 14"
-.from("#may", 0, {css:{display: "none"}})
-//.to("#may", 1, {scale: 1, autoAlpha: 2, ease: Power2.easeIn})
+//This is the WhatsApp message with the same animation as the other 2 popups.
+.from(".popup", 0.5, {css:{display: "none"}})
+.from(".popup", 1, {scale:0.5, autoAlpha:0, ease:Back.easeOut})
 
 //Button with "order now!"
 .from("#panel3", 0, {css:{display: "none"}})
 .from("#info", 0.5, {top:250}, "final")
 .from("#orderNow", 1, {scale:0, autoAlpha:0, ease:Back.easeOut})
-.to("#may", 0, {css:{display: "hidden"}})
-.to("#launch", 0, {css:{display: "visible"}})
+.to(".popup", 0, {css:{display: "visible"}})
